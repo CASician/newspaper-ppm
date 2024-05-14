@@ -2,6 +2,33 @@
     border-bottom: 1px solid #DDDDDD;
 }
 
+.navbar {
+    padding-bottom: 0%;
+}
+
 .nav-item.bordo {
     border-left: 1px solid #DDDDDD;
+}
+
+.nav-link.right {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.btn.white {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    border-radius: 35px;
+}
+
+.btn i {
+    font-size: 15px; /* Riduci la dimensione dell'icona */
+}
+
+.fa-bell {
+    font-size: 25px;
 }
