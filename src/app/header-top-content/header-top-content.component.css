@@ -1,0 +1,7 @@
+.container-fluid {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.nav-item.bordo {
+    border-left: 1px solid #DDDDDD;
+}
