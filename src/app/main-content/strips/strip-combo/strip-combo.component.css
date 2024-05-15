@@ -1,0 +1,40 @@
+.title {
+    display: flex;                  /* Utilizza Flexbox */
+  }
+
+.testatabox.box {
+    display: flex;              /* Flexbox per centrare il testo */
+    justify-content: left;    /* Centra orizzontalmente */
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;  /* Sfondo nero */
+    color: white;             /* Testo bianco */
+    padding: 1%;
+    margin: 0;
+}
+
+.firma {
+    color: red;
+}
+
+.sinistra {
+    padding: 0;
+}
+
+.horizontal-list {
+    display: flex;
+    list-style-type: square;
+    padding-left: 2%;
+    margin: 0;
+}
+
+.horizontal-list li {
+    margin-right: 10%; /* Spazio tra gli elementi */
+}
