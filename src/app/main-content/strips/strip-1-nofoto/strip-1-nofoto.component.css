@@ -1,0 +1,30 @@
+.container {
+    padding: 2%;
+}
+h3 {
+    font-size: small;
+    font-weight: bold;
+    color: red;
+}
+
+.rosso {
+    color: red;
+}
+
+.firma {
+    color: red;
+    padding-top: 2%;
+    font-style: italic;
+}
+
+.horizontal-list {
+    display: flex;
+    list-style-type: square;
+    padding-left: 4%;
+    margin: 0;
+    padding-top: 2%;
+}
+
+.horizontal-list li {
+    margin-right: 10%; /* Spazio tra gli elementi */
+}
