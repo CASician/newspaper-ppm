@@ -1,20 +1,20 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <img src="../../../../assets/main-content-img/strip-1-right.png" class="img-fluid" alt="Immagine strip-1-right" title="strip-1-right">
+            <img [src]="imageUrl" class="img-fluid" alt="Immagine strip-1-right" title="strip-1-right">
         </div>
         <div class="col-md-6">
-            <h3>CATEGORIA</h3>
-            <a href="#"><p class="titolo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </a>
+            <h3>{{ category }} </h3>
+            <a href="#"><p class="titolo">{{ title }}</p> </a>
             <ul class="horizontal-list">
                 <li>
-                    <a href="#">LINK UNO</a>
+                    <a href="#">{{ approfUno }} </a>
                 </li>
                 <li>
-                    <a href="#">LINK DUE</a>
+                    <a href="#"> {{ approfDue }} </a>
                 </li>
             </ul>
-            <p class="firma">di CASician</p>
+            <p class="firma">{{ signature }} </p>
         </div>
     </div>
 </div>

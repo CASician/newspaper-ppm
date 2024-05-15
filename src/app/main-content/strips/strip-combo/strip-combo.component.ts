@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-strip-combo',
@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './strip-combo.component.css'
 })
 export class StripComboComponent {
-
+  @Input() category: string='';
+  @Input() title: string='';
+  @Input() signature: string='';
+  @Input() imageUrl: string='';
+  @Input() approfUno: string='';
+  @Input() approfDue: string='';
 }
