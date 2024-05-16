@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { article } from '../article.model';
 
 @Component({
   selector: 'app-item-article',
@@ -9,10 +10,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './item-article.component.css'
 })
 export class ItemArticleComponent {
-  @Input() category: string='';
-  @Input() text: string='';
-  @Input() signature: string='';
-  @Input() imgUrl: string='';
-  @Input() isVideo: boolean=false;
+  @Input() article!: article;
+
   @Input() isImageRx: boolean=false;
 }
