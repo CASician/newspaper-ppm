@@ -4,6 +4,7 @@ import { Strip1RightComponent } from './strips/strip-1-right/strip-1-right.compo
 import { Strip2FotinaComponent } from './strips/strip-2-fotina/strip-2-fotina.component';
 import { Strip3Component } from './strips/strip-3/strip-3.component';
 import { StripComboComponent } from './strips/strip-combo/strip-combo.component';
+import { Strip2Component } from './strips/strip-2/strip-2.component';
 
 @Component({
   selector: 'app-main-content',
@@ -13,7 +14,8 @@ import { StripComboComponent } from './strips/strip-combo/strip-combo.component'
     Strip1RightComponent,
     Strip2FotinaComponent,
     Strip3Component,
-    StripComboComponent
+    StripComboComponent,
+    Strip2Component
   ],
   templateUrl: './main-content.component.html',
   styleUrl: './main-content.component.css'
