@@ -1,1 +1,29 @@
-<p>my-play works!</p>
+<div class="container">
+
+    <div class="container">
+        <div class="row header">
+            <div class="testatabox">
+                <img src="../../../assets/right-rail-img/logo.png" alt="my play" title="my play logo" />
+            </div>
+        </div>
+
+
+        <div class="row big">
+            <div class="row img">
+                <img [src]="article_1.imgUrl" alt="big image" title="important image" />
+            </div>
+            <div class="row text">
+                <p> {{ article_1.text }} </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row small">
+        <app-item-article [article]="article_2"></app-item-article>
+    </div>
+
+    <div class="row small">
+        <app-item-article [article]="article_3"></app-item-article>
+    </div>
+</div>

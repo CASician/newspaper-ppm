@@ -2,7 +2,29 @@
     
 
     <div class="row">                               <!-- MY PLAY ROW -->
-        <app-my-play></app-my-play>
+        <app-my-play
+        [article_1]="{
+            category: '',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            imgUrl: '../../assets/right-rail-img/my-play.png',
+            isVideo: false,
+            signature: ''
+        }"
+        [article_2]="{
+            category: '',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+            imgUrl: '../../assets/right-rail-img/video.png',
+            isVideo: true,
+            signature: ''
+        }"
+        [article_3]="{
+            category: '',
+            text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+            imgUrl: '../../assets/right-rail-img/item.png',
+            isVideo: false,
+            signature: ''
+        }"
+        ></app-my-play>
     </div>
     
     

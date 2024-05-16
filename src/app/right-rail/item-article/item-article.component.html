@@ -1,9 +1,17 @@
 <div class="container" [ngClass]="{'flex-row-reverse': isImageRx, 'flex-row': !isImageRx}">
     <div class="row">
-        <div class="col-md-4">
-            <img [src]="article.imgUrl" alt="item image" title="immagine"/>
-            <i *ngIf="article.isVideo" class="fa fa-play-circle position-absolute top-50 start-50 translate-middle text-white" style="font-size: 2rem;"></i>
+
+        <div class="col-md-4 ">
+            <div class="image-wrapper position-relative">
+                <a href="#">
+                    <img [src]="article.imgUrl" class="img-fluid" alt="item image" title="immagine" />
+                    <i *ngIf="article.isVideo" class="fa-regular fa-circle-play overlay-icon"
+                        style="font-size: 2rem;"></i>
+                </a>
+            </div>
         </div>
+
+
         <div class="col-md-8">
             <p class="category"> {{ article.category }} </p>
 
@@ -11,5 +19,6 @@
 
             <p class="signature"> {{ article.signature }}</p>
         </div>
+
     </div>
 </div>
