@@ -14,3 +14,12 @@
     font-size: 2em;
     color: #ddd;
 }
+
+.category {
+    color: #b22222;
+    font-weight: bold;
+}
+
+.signature {
+    color: #b22222;
+}
