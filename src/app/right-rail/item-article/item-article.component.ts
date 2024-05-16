@@ -11,6 +11,5 @@ import { article } from '../article.model';
 })
 export class ItemArticleComponent {
   @Input() article!: article;
-
   @Input() isImageRx: boolean=false;
 }

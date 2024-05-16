@@ -1,0 +1,29 @@
+.container {
+    padding-top: 5%;
+}
+
+.row {
+    padding-top: 5%;
+}
+
+.testatabox.box {
+    display: flex;              /* Flexbox per centrare il testo */
+    justify-content: left;    /* Centra orizzontalmente */
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;  /* Sfondo nero */
+    color: white;             /* Testo bianco */
+    padding: 1%;
+    margin: 0;
+}
+
+.grey {
+    background-color: #f3f2f2;
+}
