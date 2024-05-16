@@ -1,0 +1,33 @@
+.container {
+    padding-top: 5%;
+}
+
+.title {
+    display: flex;              /* Flexbox per centrare il testo */
+    justify-content: left;    /* Centra orizzontalmente */
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.fa-brands {
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    border-bottom: 1px solid black;
+}
