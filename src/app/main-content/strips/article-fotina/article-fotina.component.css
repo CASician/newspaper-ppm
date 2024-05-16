@@ -1,0 +1,17 @@
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.signature {
+    color: red;
+    padding-top: 2%;
+    font-style: italic;
+    font-size: small;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 10%;
+    margin: 0
+}

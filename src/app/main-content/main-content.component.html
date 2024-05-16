@@ -1,4 +1,6 @@
 <div class="container">
+
+
     <div class="row">                   <!-- STRIP COMBO ROW -->
         <app-strip-combo
         [category]="'TITOLONE CATEGORIA'"
@@ -9,6 +11,8 @@
         [approfDue]="'LINK DUE'"
         ></app-strip-combo>
     </div>
+
+
     <div class="row">                   <!-- STRIP-1 ROW -->
         <app-strip-1-right
         [category]="'CATEGORIA'"
@@ -19,6 +23,8 @@
         [approfDue]="'LINK DUE'"
         ></app-strip-1-right>
     </div>
+
+
     <div class="row">                   <!-- STRIP-1-NOFOTO ROW -->
         <app-strip-1-nofoto
         [category]="'CATEGORIA'"
@@ -29,6 +35,8 @@
         [approfDue]="'LINK DUE'"
         ></app-strip-1-nofoto>
     </div>
+
+
     <div class="row">                   <!-- STRIP-3 ROW -->
         <app-strip-3
         [article_1]="{
@@ -56,5 +64,27 @@
             approfDue: ''
           }"
         ></app-strip-3>
+    </div>
+
+
+    <div class="row">
+        <app-strip-2-fotina
+        [article_1]="{
+            imageUrl: '../../../assets/main-content-img/fotina.png',
+            titleBlack: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            titleRed: '',
+            signature: 'di CASician',
+            approfUno: 'LINK UNO',
+            approfDue: 'LINK DUE'
+        }"
+        [article_2]="{
+            imageUrl: '../../../assets/main-content-img/fotina.png',
+            titleBlack: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            titleRed: '',
+            signature: 'di CASician',
+            approfUno: 'LINK UNO',
+            approfDue: 'LINK DUE'
+        }"
+        ></app-strip-2-fotina>
     </div>
 </div>
