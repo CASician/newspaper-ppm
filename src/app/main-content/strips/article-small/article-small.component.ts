@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Article } from '../../article.model';
 
 @Component({
   selector: 'app-article-small',
@@ -8,8 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrl: './article-small.component.css'
 })
 export class ArticleSmallComponent {
-  @Input() imageUrl: string='';
-  @Input() titleBlack: string='';
-  @Input() titleRed: string='';
-  @Input() signature: string='';
+  @Input() article! : Article;
 }

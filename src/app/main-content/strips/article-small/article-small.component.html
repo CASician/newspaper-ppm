@@ -1,12 +1,12 @@
 <div class="container">
     <div class="row">
-        <img [src]="imageUrl" alt="article-small-picture" alt="article-small-picture">
+        <img [src]="article.imageUrl" alt="article-small-picture" alt="article-small-picture">
     </div>
     <div class="row">
-        <a href="#"> {{ titleBlack}} </a>
-        <a href="#" class="rosso"> {{ titleRed}} </a>
+        <a href="#"> {{ article.titleBlack }} </a>
+        <a href="#" class="rosso"> {{ article.titleRed }} </a>
     </div>
     <div class="row signature">
-        <p> {{ signature }}</p>
+        <p> {{ article.signature }}</p>
     </div>
 </div>

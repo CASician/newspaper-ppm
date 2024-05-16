@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row">
+    <div class="row">                   <!-- STRIP COMBO ROW -->
         <app-strip-combo
         [category]="'TITOLONE CATEGORIA'"
         [title]="'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'"
@@ -9,7 +9,7 @@
         [approfDue]="'LINK DUE'"
         ></app-strip-combo>
     </div>
-    <div class="row">
+    <div class="row">                   <!-- STRIP-1 ROW -->
         <app-strip-1-right
         [category]="'CATEGORIA'"
         [title]="'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'"
@@ -19,7 +19,7 @@
         [approfDue]="'LINK DUE'"
         ></app-strip-1-right>
     </div>
-    <div class="row">
+    <div class="row">                   <!-- STRIP-1-NOFOTO ROW -->
         <app-strip-1-nofoto
         [category]="'CATEGORIA'"
         [titleBlack]="'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.'"
@@ -29,7 +29,32 @@
         [approfDue]="'LINK DUE'"
         ></app-strip-1-nofoto>
     </div>
-    <div class="row">
-        <app-strip-3></app-strip-3>
+    <div class="row">                   <!-- STRIP-3 ROW -->
+        <app-strip-3
+        [article_1]="{
+            imageUrl: '../../../assets/main-content-img/small-article.png',
+            titleBlack: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            titleRed: 'Lorem ipsum.',
+            signature: 'di CASician',
+            approfUno: '',
+            approfDue: ''
+          }"
+          [article_2]="{
+            imageUrl: '../../../assets/main-content-img/small-article.png',
+            titleBlack: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            titleRed: 'Lorem ipsum.',
+            signature: 'di CASician',
+            approfUno: '',
+            approfDue: ''
+          }"
+          [article_3]="{
+            imageUrl: '../../../assets/main-content-img/small-article.png',
+            titleBlack: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            titleRed: 'Lorem ipsum.',
+            signature: 'di CASician',
+            approfUno: '',
+            approfDue: ''
+          }"
+        ></app-strip-3>
     </div>
 </div>
