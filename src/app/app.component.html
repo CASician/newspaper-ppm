@@ -2,10 +2,12 @@
 <!-- Everything is being called from here. If you don't find it here, it means that what you're looking for is a subelement of something that is called here. -->
 
 <div class="container">
+    
     <div class="row">
         <app-header-container></app-header-container>
     </div>
     
+
     <div class="row justify-content-center">
         <div class="col-md-8">
             <app-main-content></app-main-content>
@@ -14,5 +16,16 @@
             <app-right-rail></app-right-rail>
         </div>
     </div>
+
+    
+    <div class="row">
+        <app-area-bottom></app-area-bottom>
+    </div>
+
+    
+    <div class="row">
+        <app-footer></app-footer>
+    </div>
+
 </div>
 <router-outlet />
