@@ -1,0 +1,70 @@
+.container{
+    background-color: #1e335a;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.container-flex {
+    display: flex;
+    flex-direction:row;
+}
+.list-item {
+    padding: 10px;
+    color: white;
+    font-size: small;
+}
+.fill-space {
+    flex-grow: 1;
+    display: flex;
+    align-items: center; /* Allinea la linea in basso */
+}
+.line {
+    width: 100%;
+    border-top: 1px solid white; /* Stile della linea */
+}
+.first {
+    background-color: white;
+    color: black;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: square;
+    padding-left: 2%;
+    margin: 0;
+}
+
+.horizontal-list li {
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    min-width: 100px;
+    font-size: small;
+}
+.big {
+    position: relative; /* Imposta il contesto di posizionamento per il testo sovrapposto */
+}
+
+.immagine{
+    display: block; /* Assicura che l'immagine si comporti come un elemento di blocco */
+    width: 100%; /* Puoi regolare la larghezza secondo necessità */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+}
+
+.text-overlay {
+    position: absolute; /* Posiziona il testo in modo assoluto rispetto al contenitore */
+    top: 80%; /* Centra verticalmente il testo */
+    left: 50%; /* Centra orizzontalmente il testo */
+    transform: translate(-45%, -50%); /* Centra il testo esattamente al centro */
+    font-size: 20px; /* Dimensione del testo, regolala secondo necessità */
+    background-color: rgba(0, 0, 0, 0); /* Sfondo semitrasparente per migliorare la leggibilità */
+    padding: 10px; /* Spazio interno del testo */
+}
+
+.title, .signature {
+    color: white;
+    font-size: larger;
+}
+
+.text-simple {
+    color: white;
+}

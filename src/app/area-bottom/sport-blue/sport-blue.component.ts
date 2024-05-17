@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Article } from '../../main-content/article.model';
 
 @Component({
   selector: 'app-sport-blue',
@@ -8,5 +9,8 @@ import { Component } from '@angular/core';
   styleUrl: './sport-blue.component.css'
 })
 export class SportBlueComponent {
-
+  @Input() article_1!: Article;
+  @Input() article_2!: Article;
+  @Input() article_3!: Article;
+  @Input() article_4!: Article;
 }
