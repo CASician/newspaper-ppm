@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { article } from '../article.model';
 
 @Component({
   selector: 'app-podcast',
@@ -8,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrl: './podcast.component.css'
 })
 export class PodcastComponent {
-
+  @Input() podcast_1!: article;
+  @Input() podcast_2!: article;
 }
