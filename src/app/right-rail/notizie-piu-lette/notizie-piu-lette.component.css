@@ -40,3 +40,30 @@ h3 {
 .article {
     border-bottom: 1px solid #929292;
 }
+
+
+/* SECOND PART */
+
+.overlay-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #ddd;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    display: flex;              /* Flexbox per centrare il testo */
+    justify-content: left;    /* Centra orizzontalmente */
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: bold;
+}

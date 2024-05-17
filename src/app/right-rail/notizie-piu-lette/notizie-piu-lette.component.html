@@ -68,3 +68,29 @@
         </div>
     </div>
 </div>
+
+<div class="container">
+
+    <div class="row">
+        <p class="title"> IN VISTA </p>
+    </div>
+
+    <div class="row big">
+        <div class="row">
+            <p class="category"> {{ video.category }} </p>
+        </div>
+        <div class="row img">
+            <div class="image-wrapper position-relative">
+                <a href="#">
+                    <img [src]="video.imgUrl" class="img-fluid" alt="item image" title="immagine" />
+                    <i *ngIf="video.isVideo" class="fa-regular fa-circle-play overlay-icon"
+                        style="font-size: 2rem;"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row text">
+            <p> {{ video.text }} </p>
+        </div>
+    </div>
+
+</div>
