@@ -1,0 +1,21 @@
+.container {
+    padding-top: 5%;
+}
+
+.category .text {
+    font-size: small;
+}
+
+.category {
+    font-weight: bold;
+}
+
+.title {
+    display: flex;              /* Flexbox per centrare il testo */
+    justify-content: left;    /* Centra orizzontalmente */
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: bold;
+}
