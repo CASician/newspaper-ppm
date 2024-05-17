@@ -12,4 +12,6 @@ import { article } from '../article.model';
 export class ItemArticleComponent {
   @Input() article!: article;
   @Input() isImageRx: boolean=false;
+  @Input() categoryColor: string='#b22222';
+  @Input() textColor: string='#000';
 }

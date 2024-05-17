@@ -13,9 +13,9 @@
 
 
         <div class="col-md-8">
-            <p class="category"> {{ article.category }} </p>
+            <p class="category" [style.color]="categoryColor"> {{ article.category }} </p>
 
-            <p class="text"> {{ article.text }}</p>
+            <p class="text" [style.color]="textColor"> {{ article.text }}</p>
 
             <p class="signature"> {{ article.signature }}</p>
         </div>
