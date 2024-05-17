@@ -1,0 +1,98 @@
+.header, .footer-bottom {
+    border-top: 1px solid black;
+}
+
+/* -------------    HEADER   ------------- */
+.ciaone {
+    display: flex;
+    flex-direction:row;
+}
+.ciao{
+    padding: 10px;
+    color: black;
+    font-size: small;
+}
+.fill-space {
+    flex-grow: 1;
+    display: flex;
+    align-items: center; /* Allinea la linea in basso */
+}
+.line {
+    width: 100%;
+    border-top: 1px solid white; /* Stile della linea */
+}
+
+.image {
+    width: 50%;
+    height: auto;
+}
+
+/* -------------    SOCIALS   ------------- */
+.fa-brands {
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    border-bottom: 1px solid black;
+}
+
+/* -------------    NETWORK   ------------- */
+.net-con {
+    justify-content: center;
+    font-weight: bold;
+}
+
+.net {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.net:not(:first-child){
+    border-left: 1px solid black;
+}
+/* -------------    BOTTOM   ------------- */
+.fondo-con {
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.fondo {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/* -------------    LISTONE   ------------- */
+.sezioni-con {
+    display: flex;
+    flex-direction:column;
+}
+.list-item {
+    padding: 10px;
+    color: black;
+    font-size: small;
+}
+
+.title {
+    font-weight: bold;
+    font-size: small;
+}
