@@ -1,0 +1,42 @@
+.title {
+    display: flex;                  /* Utilizza Flexbox */
+}
+
+.testatabox.box {
+    display: flex;              /* Flexbox per centrare il testo */
+    justify-content: left;    /* Centra orizzontalmente */
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bold;
+    background-color: black;  /* Sfondo nero */
+    color: white;             /* Testo bianco */
+    padding: 1%;
+    margin: 0;
+}
+
+.fa-solid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #929292;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.signature {
+    color: #b22222;
+}
+
+.article {
+    border-bottom: 1px solid #929292;
+}

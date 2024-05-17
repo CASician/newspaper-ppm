@@ -1,19 +1,30 @@
 <div class="container">
+
     <div class="row title">
+
         <div class="testatabox box sinistra">   <!-- BOX TESTATA CON TITOLETTO-->
             <h3>{{ category }}</h3>
         </div>
+    
         <div class="sinistra">                  <!-- TITOLO CLICCABILE -->
             <a href="#"><h2>{{ title }}</h2></a>
         </div>
+
     </div>
+
+
     <div class="row firma">                     <!-- FIRMA -->
         <p class="sinistra">{{ signature }}</p>
     </div>
+    
+    
     <div class="row img">                       <!-- IMMAGINE -->
         <img class="sinistra" [src]="imageUrl"/>
     </div>
+    
+    
     <div class="row approfondimenti">           <!-- APPROFONDIMENTI -->
+    
         <ul class="horizontal-list">
            <li>
             <a href="#">{{ approfUno }}</a>
@@ -22,5 +33,6 @@
             <a href="#">{{ approfDue }}</a>
            </li> 
         </ul>
+    
     </div>
 </div>
