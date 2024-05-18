@@ -1,0 +1,65 @@
+.container-flex {
+    display: flex;
+    flex-direction:row;
+    border-bottom: 1px solid black;
+}
+.list-item {
+    padding: 10px;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+}
+.rosa {
+    color: #ff007f;
+}
+
+.fill-space {
+    flex-grow: 1;
+    display: flex;
+    align-items: center; /* Allinea la linea in basso */
+}
+.line {
+    width: 100%;
+    border-top: 1px solid white; /* Stile della linea */
+}
+
+.col-md-4 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.image-flex {
+    position: relative; /* Contesto di posizionamento per gli elementi assoluti */
+    width: 100%; /* Può essere regolato in base alle necessità */
+    max-width: 600px; /* Dimensione massima dell'immagine per evitare che sia troppo grande */
+    margin: 0 auto; /* Centra il contenitore */
+}
+
+.immagine {
+    display: block; /* Assicura che l'immagine si comporti come un elemento di blocco */
+    width: 100%; /* L'immagine prende tutto lo spazio orizzontale disponibile */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+}
+
+.testo {
+    position: absolute; /* Posiziona il testo in modo assoluto rispetto al contenitore */
+    width: 100%; /* Fa sì che il testo prenda tutta la larghezza del contenitore */
+    color: white; /* Colore del testo */
+    text-align: left; /* Allinea il testo al centro orizzontalmente */
+    padding: 10px; /* Aggiunge un po' di spazio interno per la leggibilità */
+    box-sizing: border-box; /* Include il padding e il bordo nel calcolo della larghezza */
+    background-color: rgba(0, 0, 0, 0); /* Sfondo semitrasparente per migliorare la leggibilità */
+    font-size: small;
+    font-weight: bold;
+}
+
+.alto {
+    top: 0; /* Posiziona il testo in alto */
+}
+
+.basso {
+    bottom: 0; /* Posiziona il testo in basso */
+}
+.icon {
+    padding: 5%;
+    font-size: large;
+}

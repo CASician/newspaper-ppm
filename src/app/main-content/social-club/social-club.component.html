@@ -1,1 +1,46 @@
-<p>social-club works!</p>
+<div class="container">
+
+    <div class="row">
+        <div class="container-flex">
+            <!-- Lista di elementi -->
+            <div class="list-item">IL MESSAGGERO</div>
+            <div class="list-item rosa">SOCIAL CLUB</div>
+
+            <!-- Elemento che riempie lo spazio -->
+            <div class="fill-space">
+                <div class="line"></div>
+            </div>
+            <div class="list-item">VEDI TUTTI » </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="image-flex">
+                <img class="immagine" [src]="article_1.imageUrl" alt="fedez" title="fedez" />
+                <div class="testo alto">
+                    <i class="icon" [ngClass]="getIconClass(social_1)"></i>
+                </div>
+                <div class="testo basso"> {{article_1.titleBlack }} </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="image-flex">
+                <img class="immagine" [src]="article_2.imageUrl" alt="fedez" title="fedez" />
+                <div class="testo alto"><i class="icon" [ngClass]="getIconClass(social_2)"></i> </div>
+                <div class="testo basso"> {{article_2.titleBlack }} </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="image-flex">
+                <img class="immagine" [src]="article_3.imageUrl" alt="fedez" title="fedez" />
+                <div class="testo alto"><i class="icon" [ngClass]="getIconClass(social_3)"></i> </div>
+                <div class="testo basso"> {{article_3.titleBlack }} </div>
+            </div>
+        </div>
+    </div>
+
+</div>
