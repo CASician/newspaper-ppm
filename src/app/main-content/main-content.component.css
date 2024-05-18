@@ -1,3 +1,22 @@
 .row {
     border-bottom: 1px solid #DDD;
 }
+
+.title {
+    display: flex;              /* Flexbox per centrare il testo */
+    justify-content: left;    /* Centra orizzontalmente */
+    align-items: center;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: small;
+}
+
+.fill-space {
+    flex-grow: 1;
+    display: flex;
+    align-items: center; /* Allinea la linea in basso */
+}
+.line {
+    width: 100%;
+    border-top: 1px solid black; /* Stile della linea */
+}

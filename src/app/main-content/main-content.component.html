@@ -162,11 +162,23 @@
 
 
     <div class="row">
-        <app-video-del-giorno></app-video-del-giorno>
+        <app-video-del-giorno
+        [videoUrl]="'../../../assets/main-content-vid/brush.mp4'"
+        [description]="'Lorem ipsum dolor sit amet, consectetur adipiscing elit'"
+        ></app-video-del-giorno>
     </div>
 
+
     <div class="row">
-        <app-strip-3
+
+        
+        <p class="title">ECONOMIA</p>
+        <div class="fill-space">
+            <div class="line"></div>
+        </div>
+        
+
+        <app-strip-3 class="economia"
         [article_1]="{
             imageUrl: '../../../assets/main-content-img/small-article.png',
             titleBlack: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',

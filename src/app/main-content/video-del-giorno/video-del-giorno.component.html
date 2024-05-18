@@ -1,1 +1,21 @@
-<p>video-del-giorno works!</p>
+<div class="container">
+
+    <div class="row header">
+        <p class="title">VIDEO DEL GIORNO</p>
+        <div class="fill-space">
+            <div class="line"></div>
+        </div>
+    </div>
+
+    <div class="row description">
+        <p>{{description}}</p>
+    </div>
+
+    <div class="row video">
+        <video controls>
+            <source [src]="videoUrl" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</div>

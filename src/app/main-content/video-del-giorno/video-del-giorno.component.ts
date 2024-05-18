@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-video-del-giorno',
@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './video-del-giorno.component.css'
 })
 export class VideoDelGiornoComponent {
-
+  @Input() videoUrl!: string;
+  @Input() description!: string;
 }
