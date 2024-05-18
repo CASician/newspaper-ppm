@@ -206,7 +206,32 @@
     </div>
 
     <div class="row">
-        <app-salute></app-salute>
+        <app-salute
+        [article_1]="{
+            imageUrl: '../../../assets/main-content-img/strip-combo.png',
+            titleBlack: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            titleRed: 'Lorem ipsum.',
+            signature: 'di CASician',
+            approfUno: 'wow',
+            approfDue: 'wowissimo'
+          }"
+          [article_2]="{
+            imageUrl: '../../../assets/main-content-img/strip-2.png',
+            titleBlack: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            titleRed: 'Lorem ipsum.',
+            signature: 'di CASician',
+            approfUno: '',
+            approfDue: ''
+          }"
+          [article_3]="{
+            imageUrl: '../../../assets/main-content-img/strip-2.png',
+            titleBlack: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            titleRed: 'Lorem ipsum.',
+            signature: 'di CASician',
+            approfUno: '',
+            approfDue: ''
+          }"
+        ></app-salute>
     </div>
 
 

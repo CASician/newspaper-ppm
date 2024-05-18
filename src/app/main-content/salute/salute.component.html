@@ -1,1 +1,61 @@
-<p>salute works!</p>
+<div class="container">
+
+    <div class="row">
+        <div class="container-flex">
+            <!-- Lista di elementi -->
+            <div class="list-item first">SALUTE</div>
+            <div class="list-item">FOCUS</div>
+            <div class="list-item">MOLTOSALUTE</div>
+            <div class="list-item">MEDICINA</div>
+            <div class="list-item">PRIMA INFANZIA</div>
+            <!-- Elemento che riempie lo spazio -->
+            <div class="fill-space">
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="row">
+
+            <div class="sinistra">                  <!-- TITOLO CLICCABILE -->
+                <a href="#"><h2> {{ article_1.titleBlack }} </h2></a>
+            </div>
+    
+        </div>
+    
+    
+        <div class="row firma">                     <!-- FIRMA -->
+            <p class="sinistra">{{ article_1.signature }}</p>
+        </div>
+        
+        
+        <div class="row img">                       <!-- IMMAGINE -->
+            <img class="sinistra" [src]="article_1.imageUrl"/>
+        </div>
+        
+        
+        <div class="row approfondimenti">           <!-- APPROFONDIMENTI -->
+        
+            <ul class="horizontal-list">
+               <li>
+                <a href="#">{{ article_1.approfUno }}</a>
+               </li> 
+               <li>
+                <a href="#">{{ article_1.approfDue }}</a>
+               </li> 
+            </ul>
+        
+        </div>
+    </div>
+    
+    
+    <div class="row">
+        <app-strip-2
+        [article_1]="article_2"
+        [article_2]="article_3"
+        ></app-strip-2>
+    </div>
+
+</div>
