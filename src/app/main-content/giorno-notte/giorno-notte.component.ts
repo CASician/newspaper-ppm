@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Article } from '../article.model';
 
 @Component({
   selector: 'app-giorno-notte',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './giorno-notte.component.css'
 })
 export class GiornoNotteComponent {
-
+  @Input() article!: Article;
 }
