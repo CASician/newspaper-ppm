@@ -1,75 +1,36 @@
 .container-flex {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
+
 .list-item {
     padding: 10px;
     color: black;
     font-size: small;
 }
+
 .fill-space {
     flex-grow: 1;
     display: flex;
-    align-items: center; /* Allinea la linea in basso */
+    align-items: center;
+    /* Allinea la linea in basso */
 }
+
 .line {
     width: 100%;
-    border-top: 1px solid black; /* Stile della linea */
+    border-top: 1px solid black;
+    /* Stile della linea */
 }
+
 .first {
     background-color: black;
     color: WHITE;
     font-weight: bold;
 }
 
-.image-flex {
-    position: relative; /* Contesto di posizionamento per gli elementi assoluti */
-    width: 100%; /* Può essere regolato in base alle necessità */
-    margin: 0 auto; /* Centra il contenitore */
-}
 
-.immagine {
-    display: block; /* Assicura che l'immagine si comporti come un elemento di blocco */
-    width: 100%; /* L'immagine prende tutto lo spazio orizzontale disponibile */
-    height: auto; /* Mantiene le proporzioni dell'immagine */
-}
-
-.testo {
-    position: absolute; /* Posiziona il testo in modo assoluto rispetto al contenitore */
-    width: 100%; /* Fa sì che il testo prenda tutta la larghezza del contenitore */
-    color: white; /* Colore del testo */
-    text-align: center; /* Allinea il testo al centro orizzontalmente */
-    padding: 10px; /* Aggiunge un po' di spazio interno per la leggibilità */
-    box-sizing: border-box; /* Include il padding e il bordo nel calcolo della larghezza */
-    background-color: rgba(0, 0, 0, 0); /* Sfondo semitrasparente per migliorare la leggibilità */
-    font-size: small;
-    font-weight: bold;
-}
-.bottone {
-    top: 0;
-}
-
-.alto {
-    top: 20%; /* Posiziona il testo in alto */
-}
-
-.basso {
-    bottom: 0; /* Posiziona il testo in basso */
-}
-
-.btn {
-    border-radius: 20px;
-}
-
-.linea-bottoni {
-    display: flex;
-    flex-direction: row;
-}
-
-/* Puoi aggiungere eventuali stili personalizzati qui */
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem;
     border-radius: 0.5rem;
-  }
-  
+}

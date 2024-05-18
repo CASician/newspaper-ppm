@@ -1,13 +1,14 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnChanges, SimpleChanges} from '@angular/core';
 import { Article } from '../article.model';
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-accadde-oggi',
   standalone: true,
   imports: [
-    
+    NgbModule,
+    CommonModule
   ],
   templateUrl: './accadde-oggi.component.html',
   styleUrl: './accadde-oggi.component.css'
