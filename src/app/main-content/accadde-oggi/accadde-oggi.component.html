@@ -1,1 +1,68 @@
-<p>accadde-oggi works!</p>
+<div class="container">
+
+    <div class="row header">
+        <div class="container-flex">
+            <!-- Lista di elementi -->
+            <div class="list-item first">ACCADDE OGGI</div>
+            <!-- Elemento che riempie lo spazio -->
+            <div class="fill-space">
+                <div class="line"></div>
+            </div>
+            <div class="list-item">SFOGLIA L'ARCHIVIO » </div>
+        </div>
+    </div>
+
+
+    <div class="row bigbox">
+        <div class="image-flex">
+            <img class="immagine" [src]="article_1.imageUrl" alt="fedez" title="fedez" />
+            
+            
+            <div class="testo bottone">
+                <button class="btn btn-primary" type="button">
+                    ACCADDE OGGI
+                </button>
+            </div>
+            
+            
+            <div class="testo alto"> {{ article_1.titleBlack }} <a href="#">Leggi tutto</a></div>
+            
+            
+            <div class="testo basso linea-bottoni"> 
+                <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
+
+                <div class="cool-line"></div>
+
+                <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <ng-carousel>
+            <ng-template ngbSlide>
+              <img src="https://via.placeholder.com/800x400?text=First+Image" alt="First slide">
+              <div class="carousel-caption">
+                <h3>First Slide</h3>
+                <p>Description for the first slide.</p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <img src="https://via.placeholder.com/800x400?text=Second+Image" alt="Second slide">
+              <div class="carousel-caption">
+                <h3>Second Slide</h3>
+                <p>Description for the second slide.</p>
+              </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <img src="https://via.placeholder.com/800x400?text=Third+Image" alt="Third slide">
+              <div class="carousel-caption">
+                <h3>Third Slide</h3>
+                <p>Description for the third slide.</p>
+              </div>
+            </ng-template>
+        </ng-carousel>
+          
+    </div>
+
+</div>
