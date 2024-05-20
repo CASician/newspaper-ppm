@@ -32,3 +32,12 @@
 .row {
     padding: 1%;
 }
+
+.titleBlack {
+    padding-left: 5%;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}

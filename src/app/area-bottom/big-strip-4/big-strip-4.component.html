@@ -14,7 +14,7 @@
 
             <div class="row big-article">
 
-                <div class="col-md-6 image"><img [src]="article_1.imageUrl"></div>
+                <div class="col-md-6 image"><img [src]="article_1.imageUrl" class="img-fluid"></div>
                 <div class="col-md-6">
                     <p class="text"> {{ article_1.titleBlack }} </p>
                     <p class="signature"> {{ article_1.signature}} </p>
@@ -32,14 +32,14 @@
                 <div class="col-md-6">
                     <div class="row titleBlack"> {{ article_2.titleBlack }} </div>
                     <div class="row titleRed-image">
-                        <div class="col-md-6 image"> <img [src]="article_2.imageUrl"/> </div>
+                        <div class="col-md-6 image"> <img class="img-fluid" [src]="article_2.imageUrl"/> </div>
                         <div class="col-md-6 titleRed"> {{ article_2.titleRed }} </div>
                     </div>
                 </div>
                 <div class="col-md-6 border-colored">
                     <div class="row titleBlack"> {{ article_3.titleBlack }} </div>
                     <div class="row titleRed-image">
-                        <div class="col-md-6 image"> <img [src]="article_3.imageUrl"/> </div>
+                        <div class="col-md-6 image"> <img class="img-fluid" [src]="article_3.imageUrl"/> </div>
                         <div class="col-md-6 titleRed"> {{ article_3.titleRed }} </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
 
 
         <div class="col-md-4 ">
-            <div class="row image"> <img [src]="article_4.imageUrl" alt="ehehe" title="ehehe"/></div>
+            <div class="row image"> <img [src]="article_4.imageUrl" class="img-fluid" alt="ehehe" title="ehehe"/></div>
             <div class="row text"> <p> {{ article_4.titleBlack}} </p></div>
             <div class="row signature"><p> {{ article_4.signature}} </p></div>
         </div>

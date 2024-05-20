@@ -12,6 +12,7 @@
 
 ul {
     list-style-type: square;
+    color: #b22222;
     padding-left: 10%;
     margin: 0
 }
