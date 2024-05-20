@@ -1,5 +1,7 @@
 .row {
     border-bottom: 1px solid #DDD;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .title {

@@ -28,3 +28,7 @@
     width: 100%;
     border-top: 1px solid #aaa; /* Stile della linea */
 }
+
+.row {
+    padding: 1%;
+}

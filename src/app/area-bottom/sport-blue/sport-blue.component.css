@@ -68,3 +68,7 @@
 .text-simple {
     color: white;
 }
+
+.row {
+    padding-bottom: 1%;
+}
