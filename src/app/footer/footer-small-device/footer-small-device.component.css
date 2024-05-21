@@ -1,13 +1,21 @@
 .nav-item .nav-link{
     color: black;
-    margin-right: 3rem;
-}
-
-.navbar {
-    border-top: 1px solid #DDDDDD;
-    border-bottom: 1px solid #DDDDDD;
 }
 
 .container {
     background-color: white;
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }

@@ -1,3 +1,21 @@
 .col-md-4 {
     border-left: 1px solid #DDD;
 }
+
+.hp-bottom {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px #ebebeb solid;
+    position: sticky;
+    z-index: 9999;
+    height: 45px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 0 16px;
+}
