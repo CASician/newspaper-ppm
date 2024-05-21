@@ -30,6 +30,15 @@
     font-size: 15px; /* Riduci la dimensione dell'icona */
 }
 
-.fa-bell {
+.fa-bell, .big {
     font-size: 25px;
+}
+
+.big {
+    padding-left: 60%;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
 }
