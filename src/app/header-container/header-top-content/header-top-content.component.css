@@ -1,5 +1,6 @@
 .container-fluid {
     border-bottom: 1px solid #DDDDDD;
+    background-color: white;
 }
 
 .navbar {

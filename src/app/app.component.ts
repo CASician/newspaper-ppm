@@ -5,6 +5,7 @@ import { MainContentComponent } from './main-content/main-content.component';
 import { RightRailComponent } from './right-rail/right-rail.component';
 import { AreaBottomComponent } from './area-bottom/area-bottom.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderTopContentComponent } from './header-container/header-top-content/header-top-content.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     RouterOutlet, 
     HeaderContainerComponent,
+    HeaderTopContentComponent,
     MainContentComponent,
     RightRailComponent,
     AreaBottomComponent,
