@@ -12,28 +12,22 @@
 
     <div class="container">
 
-        <div class="row big">
-            <div class="row">
-                <p class="category"> {{ video_1.category }} </p>
+        <div class="big">
+            <p class="category"> {{ video_1.category }} </p>
+            <div class="row img position-relative">
+                <a href="#">
+                    <img [src]="video_1.imgUrl" class="img-fluid" alt="item image" title="immagine" />
+                    <i *ngIf="video_1.isVideo" class="fa-regular fa-circle-play overlay-icon"
+                        style="font-size: 2rem;"></i>
+                </a>
             </div>
-            <div class="row img">
-                <div class="image-wrapper position-relative">
-                    <a href="#">
-                        <img [src]="video_1.imgUrl" class="img-fluid" alt="item image" title="immagine" />
-                        <i *ngIf="video_1.isVideo" class="fa-regular fa-circle-play overlay-icon"
-                            style="font-size: 2rem;"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="row text">
-                <p> {{ video_1.text }} </p>
-            </div>
+            <p style="color: #ddd;"> {{ video_1.text }} </p>
         </div>
 
 
         <div class="fill-space">
             <div class="line white"></div>
-        </div> 
+        </div>
 
         <div class="row small">
             <app-item-article [article]="video_2" textColor="#fff" categoryColor="#ddd"></app-item-article>

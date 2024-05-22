@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container d-none d-lg-block">
     <div class="row" [ngClass]="{'flex-row-reverse': isImageRx, 'flex-row': !isImageRx}">
 
-        <div class="col-md-4 ">
+        <div class="col-md-4">
             <div class="image-wrapper position-relative">
                 <a href="#">
                     <img [src]="article.imgUrl" class="img-fluid" alt="item image" title="immagine" />
@@ -13,6 +13,31 @@
 
 
         <div class="col-md-8">
+            <p class="category" [style.color]="categoryColor"> {{ article.category }} </p>
+
+            <p class="text" [style.color]="textColor"> {{ article.text }}</p>
+
+            <p class="signature"> {{ article.signature }}</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="container d-block d-lg-none">
+    <div class="row">
+
+        <div class="col-4">
+            <div class="image-wrapper position-relative">
+                <a href="#">
+                    <img [src]="article.imgUrl" class="img-fluid" alt="item image" title="immagine" />
+                    <i *ngIf="article.isVideo" class="fa-regular fa-circle-play overlay-icon"
+                        style="font-size: 2rem;"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="col-8 small">
             <p class="category" [style.color]="categoryColor"> {{ article.category }} </p>
 
             <p class="text" [style.color]="textColor"> {{ article.text }}</p>

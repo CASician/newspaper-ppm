@@ -18,13 +18,30 @@
 .category {
     color: #b22222;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .signature {
     color: #b22222;
+    margin-bottom: 0;
 }
 
 .img-fluid {
     width: 100%;
     height: auto;
+}
+
+.small {
+    font-size: small;
+    font-weight: bold;
+    align-items: flex-start;
+}
+
+.container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.text {
+    margin-bottom: 0;
 }

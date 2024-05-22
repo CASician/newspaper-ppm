@@ -5,6 +5,11 @@
 .category, .text {
     color: white;
 }
+.category {
+    padding-top: 5%;
+    font-size: large;
+    font-weight: bold;
+}
 
 .header {
     padding-top: 3%;
