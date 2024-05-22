@@ -1,0 +1,12 @@
+.fill-space {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    /* Allinea la linea in basso */
+}
+
+.line {
+    width: 100%;
+    border-top: 1px solid #ddd;
+    /* Stile della linea */
+}

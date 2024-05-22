@@ -7,6 +7,7 @@ import { AreaBottomComponent } from './area-bottom/area-bottom.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderTopContentComponent } from './header-container/header-top-content/header-top-content.component';
 import { FooterSmallDeviceComponent } from './small-devices/footer-small-device/footer-small-device.component';
+import { SmallDevicesComponent } from './small-devices/small-devices.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { FooterSmallDeviceComponent } from './small-devices/footer-small-device/
     RightRailComponent,
     AreaBottomComponent,
     FooterComponent,
-    FooterSmallDeviceComponent
+    FooterSmallDeviceComponent,
+    SmallDevicesComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

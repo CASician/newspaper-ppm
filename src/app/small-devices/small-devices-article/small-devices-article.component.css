@@ -8,9 +8,21 @@
     color: red;
 }
 
+.nero {
+    color: black;
+}
+
 .list {
     display: flex;
+    flex-direction: column;
     list-style-type: square;
     color: #b22222;
     padding-left: 5%;
+}
+.list a {
+    color: black;
+}
+
+.category {
+    color: #b22222;
 }

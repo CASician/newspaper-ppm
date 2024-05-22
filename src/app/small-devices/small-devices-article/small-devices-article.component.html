@@ -1,20 +1,20 @@
 <div class="container">
     <div class="row">
-        <p class="category"> {{ article.category }} </p>
+        <a href="#"><p class="category"> {{ article.category }} </p> </a>
     </div>
 
     <div class="row">
         <img [src]="article.imageUrl" alt="article-picture" alt="article-picture">
     </div>
     <div class="row">
-        <a href="#"> {{ article.titleBlack }} </a>
+        <a href="#" class="nero"> {{ article.titleBlack }} </a>
         <a href="#" class="rosso"> {{ article.titleRed }} </a>
     </div>
     <div class="row signature">
         <p> {{ article.signature }}</p>
     </div>
 
-    <ul class="horizontal-list">
+    <ul class="list">
         <li>
             <a href="#">{{ article.approfUno }}</a>
         </li>
