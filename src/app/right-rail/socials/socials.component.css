@@ -20,14 +20,25 @@
 
 .nav-item {
     display: flex;
-    align-items: center;
+    margin-left: 2%;
 }
 
 .navbar-nav {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .icons {
     border-bottom: 1px solid black;
+    display: flex;
+    align-self: center;
 }
