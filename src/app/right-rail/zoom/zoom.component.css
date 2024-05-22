@@ -2,9 +2,6 @@
     padding-top: 5%;
 }
 
-.row {
-    padding-top: 5%;
-}
 
 .testatabox.box {
     display: flex;              /* Flexbox per centrare il testo */

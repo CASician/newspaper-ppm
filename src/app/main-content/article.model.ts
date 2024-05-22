@@ -1,4 +1,5 @@
 export interface Article {
+    category: string;
     titleBlack: string;
     titleRed: string;
     imageUrl: string;

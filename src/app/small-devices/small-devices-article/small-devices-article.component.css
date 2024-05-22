@@ -1,0 +1,16 @@
+.signature {
+    font-style: italic;
+    color: red;
+    font-size: small;
+}
+
+.rosso {
+    color: red;
+}
+
+.list {
+    display: flex;
+    list-style-type: square;
+    color: #b22222;
+    padding-left: 5%;
+}
