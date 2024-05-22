@@ -3,11 +3,11 @@
     <div class="row">
         <div class="container-flex">
             <!-- Lista di elementi -->
-            <div class="list-item first">SALUTE</div>
-            <div class="list-item">FOCUS</div>
-            <div class="list-item">MOLTOSALUTE</div>
-            <div class="list-item">MEDICINA</div>
-            <div class="list-item">PRIMA INFANZIA</div>
+            <a href="#" class=""><div class="list-item first"> SALUTE</div></a>
+            <a href="#" class=""><div class="list-item">FOCUS</div></a>
+            <a href="#" class=""><div class="list-item">MOLTOSALUTE</div></a>
+            <a href="#" class=""><div class="list-item">MEDICINA</div></a>
+            <a href="#" class=""><div class="list-item">PRIMA INFANZIA</div></a>
             <!-- Elemento che riempie lo spazio -->
             <div class="fill-space">
                 <div class="line"></div>
@@ -20,7 +20,7 @@
         <div class="row">
 
             <div class="">                  <!-- TITOLO CLICCABILE -->
-                <a href="#"><h2> {{ article_1.titleBlack }} </h2></a>
+                <a href="#" class="black"><h2> {{ article_1.titleBlack }} </h2></a>
             </div>
     
         </div>
@@ -32,7 +32,7 @@
         
         
         <div class="row img">                       <!-- IMMAGINE -->
-            <img class="" class="img-fluid" [src]="article_1.imageUrl"/>
+            <a href="#"><img class="" class="img-fluid" [src]="article_1.imageUrl"/></a>
         </div>
         
         
@@ -40,10 +40,10 @@
         
             <ul class="horizontal-list">
                <li>
-                <a href="#">{{ article_1.approfUno }}</a>
+                <a href="#" class="black">{{ article_1.approfUno }}</a>
                </li> 
                <li>
-                <a href="#">{{ article_1.approfDue }}</a>
+                <a href="#" class="black">{{ article_1.approfDue }}</a>
                </li> 
             </ul>
         

@@ -1,17 +1,17 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <img [src]="imageUrl" class="img-fluid" alt="Immagine strip-1-right" title="strip-1-right">
+            <a href="#"><img [src]="imageUrl" class="img-fluid" alt="Immagine strip-1-right" title="strip-1-right"></a>
         </div>
         <div class="col-md-6">
-            <h3>{{ category }} </h3>
-            <a href="#"><p class="titolo">{{ title }}</p> </a>
+            <h3><a href="#" class="red"> {{ category }} </a></h3>
+            <a href="#" class="black"><p class="titolo">{{ title }}</p> </a>
             <ul class="horizontal-list">
                 <li>
-                    <a href="#">{{ approfUno }} </a>
+                    <a href="#" class="black">{{ approfUno }} </a>
                 </li>
                 <li>
-                    <a href="#"> {{ approfDue }} </a>
+                    <a href="#" class="black"> {{ approfDue }} </a>
                 </li>
             </ul>
             <p class="firma">{{ signature }} </p>

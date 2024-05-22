@@ -4,7 +4,7 @@
 }
 
 .signature {
-    color: red;
+    color: #b22222;
     padding-top: 2%;
     font-style: italic;
     font-size: small;
@@ -15,4 +15,15 @@ ul {
     color: #b22222;
     padding-left: 10%;
     margin: 0
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a.black {
+    color: black;    
 }

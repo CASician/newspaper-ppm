@@ -72,3 +72,10 @@
     width: 100%;
     border-top: 1px solid black; /* Stile della linea */
 }
+a {
+    text-decoration: none;
+}
+
+a.black {
+    color: black;
+}

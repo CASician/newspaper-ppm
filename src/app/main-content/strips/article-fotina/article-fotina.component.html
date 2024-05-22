@@ -1,10 +1,10 @@
 <div class="container">
     <div class="row title">
-        <a href="#"><p> {{ article.titleBlack }}</p></a>
+        <a href="#" class="black"><p> {{ article.titleBlack }}</p></a>
     </div>
     <div class="row">
         <div class="col-md-5 picture">
-            <img [src]="article.imageUrl" class="img-fluid" alt="fotina" title="fotina"/>
+            <a href="#"><img [src]="article.imageUrl" class="img-fluid" alt="fotina" title="fotina"/></a>
         </div>
         <div class="col-md-7 extra">
             <div class="row signature">
@@ -12,8 +12,8 @@
             </div>
             <div class="row approf">
                 <ul>
-                    <li><a href="#"> {{ article.approfUno }} </a></li>
-                    <li><a href="#"> {{ article.approfDue }} </a></li>
+                    <li><a href="#" class="black"> {{ article.approfUno }} </a></li>
+                    <li><a href="#" class="black"> {{ article.approfDue }} </a></li>
                 </ul>
             </div>
         </div>

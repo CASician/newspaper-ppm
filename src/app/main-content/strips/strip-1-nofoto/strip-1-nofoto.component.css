@@ -4,15 +4,15 @@
 h3 {
     font-size: small;
     font-weight: bold;
-    color: red;
+    color: #b22222;
 }
 
 .rosso {
-    color: red;
+    color: #b22222;
 }
 
 .firma {
-    color: red;
+    color: #b22222;
     padding-top: 2%;
     font-style: italic;
 }
@@ -27,4 +27,15 @@ h3 {
 
 .horizontal-list li {
     margin-right: 10%; /* Spazio tra gli elementi */
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a.black {
+    color: black;    
 }

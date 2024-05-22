@@ -1,4 +1,17 @@
 .signature {
-    color: red;
+    color: #b22222;
     font-style: italic;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }

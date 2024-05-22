@@ -1,9 +1,25 @@
 .signature {
     font-style: italic;
-    color: red;
+    color: #b22222;
     font-size: small;
 }
 
-.rosso {
-    color: red;
+img {
+    width: 100%;
+    height: auto;
+}
+
+a.rosso {
+    color: #b22222;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+a.black {
+    color: black;    
 }

@@ -44,3 +44,17 @@
     width: 100%;
     height: auto;
 }
+
+a.white {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.blue {
+    color:#2c497f;
+    text-decoration: none;
+}

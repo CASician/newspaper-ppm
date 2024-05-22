@@ -3,14 +3,16 @@
     <div class="row">
         <div class="container-flex">
             <!-- Lista di elementi -->
-            <div class="list-item">IL MESSAGGERO</div>
-            <div class="list-item rosa">SOCIAL CLUB</div>
-
+            <a href="#" class="black">
+            <div class="list-item">IL MESSAGGERO</div></a>
+            <a href="#" class="rosa">
+            <div class="list-item rosa">SOCIALCLUB</div></a>
+            
             <!-- Elemento che riempie lo spazio -->
             <div class="fill-space white">
                 <div class="line white"></div>
             </div>
-            <div class="list-item">VEDI TUTTI » </div>
+            <div class="list-item"><a href="#" class="black">VEDI TUTTI » </a></div>
         </div>
 
         <div class="fill-space">
@@ -21,28 +23,26 @@
 
     <div class="row">
         <div class="col-md-4">
-            <div class="image-flex">
+            <div class="image-flex"> <a href="#">
                 <img class="immagine" [src]="article_1.imageUrl" alt="fedez" title="fedez" />
-                <div class="testo alto">
-                    <i class="icon" [ngClass]="getIconClass(social_1)"></i>
-                </div>
-                <div class="testo basso"> {{article_1.titleBlack }} </div>
+                <div class="testo alto"><i class="icon" [ngClass]="getIconClass(social_1)"></i></div>
+                <div class="testo basso"> {{article_1.titleBlack }} </div> </a>
             </div>
         </div>
 
         <div class="col-md-4">
-            <div class="image-flex">
+            <div class="image-flex"> <a href="#">
                 <img class="immagine" [src]="article_2.imageUrl" alt="fedez" title="fedez" />
                 <div class="testo alto"><i class="icon" [ngClass]="getIconClass(social_2)"></i> </div>
-                <div class="testo basso"> {{article_2.titleBlack }} </div>
+                <div class="testo basso"> {{article_2.titleBlack }} </div> </a>
             </div>
         </div>
 
         <div class="col-md-4">
-            <div class="image-flex">
+            <div class="image-flex"> <a href="#">
                 <img class="immagine" [src]="article_3.imageUrl" alt="fedez" title="fedez" />
                 <div class="testo alto"><i class="icon" [ngClass]="getIconClass(social_3)"></i> </div>
-                <div class="testo basso"> {{article_3.titleBlack }} </div>
+                <div class="testo basso"> {{article_3.titleBlack }} </div> </a>
             </div>
         </div>
     </div>

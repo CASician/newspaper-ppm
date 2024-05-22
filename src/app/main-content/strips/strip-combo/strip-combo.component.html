@@ -3,7 +3,7 @@
     <div class="row title">
 
         <div class="testatabox box sinistra"> <!-- BOX TESTATA CON TITOLETTO-->
-            <h3>{{ category }}</h3>
+            <h3><a href="#" style="color:#ddd">{{ category }}</a></h3>
         </div>
 
         <div class="fill-space">
@@ -25,7 +25,7 @@
 
 
     <div class="row img"> <!-- IMMAGINE -->
-        <img class="sinistra" [src]="imageUrl" />
+        <a href="#"><img class="sinistra img-fluid" [src]="imageUrl" /></a>
     </div>
 
     <!-- APPROFONDIMENTI -->

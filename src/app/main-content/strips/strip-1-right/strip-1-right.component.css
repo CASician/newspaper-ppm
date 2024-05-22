@@ -15,10 +15,10 @@
     height: auto;
 }
 
-h3 {
+.red {
     font-size: small;
     font-weight: bold;
-    color: red;
+    color: #b22222;
 }
 
 .container {
@@ -26,7 +26,19 @@ h3 {
 }
 
 .firma {
-    color: red;
+    color: #b22222;
     padding-top: 2%;
     font-style: italic;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.black {
+    color: black;
 }
