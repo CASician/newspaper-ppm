@@ -13,9 +13,9 @@
 
 
         <div class="col-md-8">
-            <p class="category" [style.color]="categoryColor"> {{ article.category }} </p>
+            <a href="#" [style.color]="categoryColor" class="category"><p class="category" > {{ article.category }} </p></a>
 
-            <p class="text" [style.color]="textColor"> {{ article.text }}</p>
+            <a href="#" [style.color]="textColor"><p class="text" >  {{ article.text }} </p></a>
 
             <p class="signature"> {{ article.signature }}</p>
         </div>
@@ -40,7 +40,7 @@
         <div class="col-8 small">
             <p class="category" [style.color]="categoryColor"> {{ article.category }} </p>
 
-            <p class="text" [style.color]="textColor"> {{ article.text }}</p>
+            <a href="#" [style.color]="textColor"><p class="text"> {{ article.text }}</p></a>
 
             <p class="signature"> {{ article.signature }}</p>
         </div>

@@ -41,3 +41,21 @@
     width: 100%;
     height: auto;
 }
+
+a {
+    text-decoration: none;
+}
+
+a.black {
+    color: black;
+}
+
+a:not(.category):hover {
+    text-decoration: underline;
+}
+
+.signature {
+    color: #b22222;
+    font-size: small;
+    font-style: italic;
+}

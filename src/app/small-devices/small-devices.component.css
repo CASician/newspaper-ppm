@@ -10,3 +10,7 @@
     border-top: 1px solid #ddd;
     /* Stile della linea */
 }
+
+.row {
+    padding-top: 5%;
+}

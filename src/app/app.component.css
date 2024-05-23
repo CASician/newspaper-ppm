@@ -1,6 +1,19 @@
-.col-md-4 {
-    border-left: 1px solid #DDD;
+@media (min-width: 976px) {
+    .col-lg-4 {
+        border-left: 1px solid #DDD;
+    }
+
 }
+
+@media (min-width: 976px) {
+    .col-lg-8 {
+        position: sticky;
+        top: 0;
+        align-self: flex-start;
+    }
+}
+
+
 
 .hp-bottom {
     overflow: hidden;
@@ -18,4 +31,8 @@
     right: 0;
     background-color: #fff;
     padding: 0 16px;
+}
+
+.row {
+    display: flex;
 }

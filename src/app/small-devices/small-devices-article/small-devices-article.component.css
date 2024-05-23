@@ -1,11 +1,11 @@
 .signature {
     font-style: italic;
-    color: red;
+    color: #b22222;
     font-size: small;
 }
 
 .rosso {
-    color: red;
+    color: #b22222;
 }
 
 .nero {
@@ -25,4 +25,19 @@
 
 .category {
     color: #b22222;
+    font-weight: bold;
+    font-size: small;
+}
+
+a {
+   text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
 }

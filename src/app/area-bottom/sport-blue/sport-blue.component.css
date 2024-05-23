@@ -11,6 +11,7 @@
     padding: 10px;
     color: white;
     font-size: small;
+    font-weight: bold;
 }
 .fill-space {
     flex-grow: 1;
@@ -23,7 +24,7 @@
 }
 .first {
     background-color: white;
-    color: black;
+    color: #1e335a;
 }
 
 .horizontal-list {
@@ -53,10 +54,10 @@
 
 .text-overlay {
     position: absolute; /* Posiziona il testo in modo assoluto rispetto al contenitore */
-    top: 80%; /* Centra verticalmente il testo */
-    left: 50%; /* Centra orizzontalmente il testo */
-    transform: translate(-45%, -50%); /* Centra il testo esattamente al centro */
-    font-size: 20px; /* Dimensione del testo, regolala secondo necessità */
+    top: 70%; /* Centra verticalmente il testo */
+    left: auto; /* Centra orizzontalmente il testo */
+    font-size: large; /* Dimensione del testo, regolala secondo necessità */
+    font-weight: bold;
     background-color: rgba(0, 0, 0, 0); /* Sfondo semitrasparente per migliorare la leggibilità */
     padding: 10px; /* Spazio interno del testo */
 }
@@ -77,4 +78,20 @@
 .img-fluid {
     width: 100%;
     height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.white {
+    color: white;
+}
+
+a.blue {
+    color: #1e335a;
+}
+
+a.app:hover {
+    text-decoration: underline;
 }

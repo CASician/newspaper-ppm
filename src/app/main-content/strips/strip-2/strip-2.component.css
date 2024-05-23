@@ -5,3 +5,11 @@
 .container {
     padding: 2%;
 }
+
+@media (max-width: 576px) {
+    .dx {
+        border-left: none; /* Nasconde l'elemento su schermi piccoli */
+        border-top: 1px solid #ddd;
+        padding-top: 5%;
+    }
+}

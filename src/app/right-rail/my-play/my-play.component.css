@@ -2,8 +2,13 @@
     background-color: #5f5f5f;
 }
 
-p {
+a {
     color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .header {
@@ -24,4 +29,8 @@ p {
 .img-fluid {
     width: 100%;
     height: auto;
+}
+
+.big {
+    display: flex;
 }

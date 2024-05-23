@@ -55,3 +55,12 @@
     width: 100%;
     border-top: 1px solid white; /* Stile della linea */
 }
+
+a.white {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover:not(:first-child) {
+    text-decoration: underline;
+}

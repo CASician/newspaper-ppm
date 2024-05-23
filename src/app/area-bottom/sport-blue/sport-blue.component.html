@@ -3,36 +3,36 @@
     <div class="row header">
         <div class="container-flex">
             <!-- Lista di elementi -->
-            <div class="list-item first">SPORT</div>
-            <div class="list-item">CATEGORIA</div>
-            <div class="list-item">CATEGORIA</div>
-            <div class="list-item">CATEGORIA</div>
-            <div class="list-item">CATEGORIA</div>
+            <a href="#" class="blue"><div class="list-item first">SPORT</div></a>
+            <a href="#" class="white"><div class="list-item">CATEGORIA</div></a>
+            <a href="#" class="white"><div class="list-item">CATEGORIA</div></a>
+            <a href="#" class="white"><div class="list-item">CATEGORIA</div></a>
+            <a href="#" class="white"><div class="list-item">CATEGORIA</div></a>
             <!-- Elemento che riempie lo spazio -->
             <div class="fill-space">
                 <div class="line"></div>
             </div>
-            <div class="list-item">VEDI TUTTI</div>
+            <a href="#" class="white"><div class="list-item">VEDI TUTTI »</div></a>
         </div>
     </div>
 
 
-    <div class="row big">
+    <div class="row big"> <a href="#">
         <img class="immagine" [src]="article_1.imageUrl" alt="c'era Allegri" title="c'era Allegri qui" />
 
         <div class="text-overlay">
             <p class="title"> {{ article_1.titleBlack }} </p>
             <p class="signature"> {{ article_1.signature }} </p>
-        </div>
+        </div></a>
 
         <div class="container-flex">
             <!-- Lista di elementi -->
             <ul class="horizontal-list">
                 <li>
-                    <a href="#">{{ article_1.approfUno }}</a>
+                    <a href="#" class="white app">{{ article_1.approfUno }}</a>
                 </li>
                 <li>
-                    <a href="#">{{ article_1.approfDue }}</a>
+                    <a href="#" class="white app">{{ article_1.approfDue }}</a>
                 </li>
             </ul>
         </div>
@@ -41,26 +41,26 @@
 
 
     <div class="row small">
-
+        
         <div class="col-md-2">
-            <img [src]="article_2.imageUrl" class="img-fluid" alt="boh" title="piccolo titolo" />
+            <a href="#" class=""><img [src]="article_2.imageUrl" class="img-fluid" alt="boh" title="piccolo titolo" /></a>
         </div>
         <div class="col-md-2">
-            <p class="text-simple"> {{ article_2.titleBlack }} </p>
-        </div>
-
-        <div class="col-md-2">
-            <img [src]="article_3.imageUrl" class="img-fluid" alt="boh" title="piccolo titolo" />
-        </div>
-        <div class="col-md-2">
-            <p class="text-simple"> {{ article_3.titleBlack }} </p>
+            <a href="#" class="white app"><p class="text-simple"> {{ article_2.titleBlack }} </p></a>
         </div>
 
         <div class="col-md-2">
-            <img [src]="article_4.imageUrl" class="img-fluid" alt="boh" title="piccolo titolo" />
+            <a href="#" class=""><img [src]="article_3.imageUrl" class="img-fluid" alt="boh" title="piccolo titolo" /></a>
         </div>
         <div class="col-md-2">
-            <p class="text-simple"> {{ article_4.titleBlack }} </p>
+            <a href="#" class="white app"><p class="text-simple"> {{ article_3.titleBlack }} </p></a>
+        </div>
+
+        <div class="col-md-2">
+            <a href="#" class=""><img [src]="article_4.imageUrl" class="img-fluid" alt="boh" title="piccolo titolo" /></a>
+        </div>
+        <div class="col-md-2">
+            <a href="#" class="white app"><p class="text-simple"> {{ article_4.titleBlack }} </p></a>
         </div>
 
     </div>

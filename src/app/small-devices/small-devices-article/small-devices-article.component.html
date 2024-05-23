@@ -1,10 +1,10 @@
 <div class="container">
     <div class="row">
-        <a href="#"><p class="category"> {{ article.category }} </p> </a>
+        <a href="#" class="rosso"><p class="category"> {{ article.category }} </p> </a>
     </div>
 
-    <div class="row">
-        <img [src]="article.imageUrl" alt="article-picture" alt="article-picture">
+    <div class="row"><a href="#">
+        <img [src]="article.imageUrl" class="img-fluid" alt="article-picture" alt="article-picture"></a>
     </div>
     <div class="row">
         <a href="#" class="nero"> {{ article.titleBlack }} </a>
@@ -16,10 +16,10 @@
 
     <ul class="list">
         <li>
-            <a href="#">{{ article.approfUno }}</a>
+            <a href="#" class="nero">{{ article.approfUno }}</a>
         </li>
         <li>
-            <a href="#">{{ article.approfDue }}</a>
+            <a href="#" class="nero">{{ article.approfDue }}</a>
         </li>
     </ul>
 </div>

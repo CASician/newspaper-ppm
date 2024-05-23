@@ -77,3 +77,26 @@ h3 {
     padding-top: 6%;
     border-bottom: 1px solid #929299;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.black {
+    color: black;
+}
+
+a.title-black {
+    color: black;
+}
+a.title-black, a.title-white:hover {
+    text-decoration: none;
+}
+
+a.title-white {
+    color: white;
+}

@@ -1,5 +1,20 @@
 .row {
-    border-bottom: 1px solid #DDD;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+.col-lg-4 {
+    border-left: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+}
+
+.flex {
+    display: flex;
+}
+
+.img-fluid {
+    width: 100%;
+    height:auto;
 }

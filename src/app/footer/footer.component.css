@@ -57,6 +57,7 @@
 .net-con {
     justify-content: center;
     font-weight: bold;
+    margin-bottom: 1%;
 }
 
 .net:not(:first-child){
@@ -127,4 +128,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover:not(.grey) {
+    text-decoration: underline;
 }
